@@ -141,17 +141,16 @@ def africa_map(names: list[str], lats: list[float], lons: list[float],
     fig = go.Figure(go.Scattergeo(
         lat=lats,
         lon=lons,
-        text=hover_texts,
+        text=names,
+        hovertext=hover_texts,
         hoverinfo="text",
         marker=dict(
-            size=[max(s / 800, 12) for s in sizes],
+            size=[max(s / 1500, 14) for s in sizes],
             color=colors,
-            line=dict(width=1, color="#FAFAFA"),
-            opacity=0.85,
+            line=dict(width=2, color="#FAFAFA"),
+            opacity=0.9,
         ),
-        mode="markers+text",
-        textposition="top center",
-        textfont=dict(color="#FAFAFA", size=10),
+        mode="markers",
     ))
     fig.update_layout(
         **_LAYOUT_DEFAULTS,
