@@ -36,6 +36,7 @@ st.session_state.setdefault("aggregates", aggregates)
 page = st.navigation(
     [
         st.Page("app_pages/portfolio_overview.py", title="Portfolio overview", icon=":material/dashboard:"),
+        st.Page("app_pages/geographic_footprint.py", title="Geographic footprint", icon=":material/map:"),
         st.Page("app_pages/company_detail.py", title="Company detail", icon=":material/business:"),
         st.Page("app_pages/impact_dashboard.py", title="Impact deep dive", icon=":material/diversity_3:"),
     ],

@@ -2,14 +2,8 @@
 
 import streamlit as st
 from components.kpi_card import render_kpi_card, render_company_scorecard
-from components.charts import horizontal_bar, africa_map
+from components.charts import horizontal_bar
 from config import COMPANY_COLORS, evaluate_status
-
-COUNTRY_COORDS = {
-    "Ghana": (7.95, -1.02),
-    "Nigeria": (9.08, 7.49),
-}
-
 
 def format_number(n: float | int | None, currency: bool = False) -> str:
     if n is None:
@@ -165,27 +159,3 @@ with col_right:
             )
             fig.update_layout(xaxis=dict(range=[0, 100]))
             st.plotly_chart(fig, use_container_width=True)
-
-# Map
-st.subheader("Geographic footprint")
-with st.container(border=True):
-    map_names, map_lats, map_lons, map_sizes, map_colors, map_hovers = [], [], [], [], [], []
-    for co in companies:
-        lat, lon = COUNTRY_COORDS.get(co.country, (0, 0))
-        if co.country == "Nigeria":
-            offset = {"agroeknor": (-1.5, -2), "koolboks": (1.5, -1), "yikodeen": (-0.5, 2), "toasties": (1.0, 1.5)}
-            dx, dy = offset.get(co.id, (0, 0))
-            lat += dx
-            lon += dy
-
-        latest = co.latest
-        size = latest.impact.total_beneficiaries if latest and latest.impact.total_beneficiaries else 1000
-        map_names.append(co.name)
-        map_lats.append(lat)
-        map_lons.append(lon)
-        map_sizes.append(size)
-        map_colors.append(COMPANY_COLORS.get(co.id, "#00905D"))
-        map_hovers.append(f"<b>{co.name}</b><br>{co.country} | {co.sector.value}<br>Beneficiaries: {format_number(size)}")
-
-    fig = africa_map(map_names, map_lats, map_lons, map_sizes, map_colors, map_hovers)
-    st.plotly_chart(fig, use_container_width=True)
