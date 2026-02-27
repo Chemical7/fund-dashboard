@@ -150,7 +150,9 @@ def africa_map(names: list[str], lats: list[float], lons: list[float],
             line=dict(width=2, color="#FAFAFA"),
             opacity=0.9,
         ),
-        mode="markers",
+        mode="markers+text",
+        textposition="top center",
+        textfont=dict(color="#FAFAFA", size=11),
     ))
     fig.update_layout(
         **_LAYOUT_DEFAULTS,
