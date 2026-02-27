@@ -1,0 +1,455 @@
+{
+  "companies": [
+    {
+      "id": "complete-farmer",
+      "name": "Complete Farmer",
+      "country": "Ghana",
+      "sector": "Agritech",
+      "iv_name": "Acumen / Alitheia / Goodwell",
+      "founded_year": 2017,
+      "description": "End-to-end digital agricultural marketplace operating as a farm-as-a-factory. Precision agriculture protocols, satellite data, and a dual-sided digital ecosystem (CF Grower for farmers, CF Buyer for global procurement) across Ghana, Nigeria, Togo, Benin, and Zambia.",
+      "snapshots": [
+        {
+          "quarter": "Q1 2025",
+          "is_synthetic": true,
+          "impact": {
+            "female_participation_pct": 38.0,
+            "youth_participation_pct": 60.0,
+            "total_beneficiaries": 42000,
+            "direct_jobs": null,
+            "indirect_jobs": null,
+            "income_improvement_pct": 10.0,
+            "female_leadership_pct": null
+          },
+          "financial": {
+            "total_funding_usd": 15300000,
+            "revenue_estimate_usd": 6000000,
+            "gross_margin_pct": null,
+            "revenue_growth_multiple": null,
+            "default_rate_pct": null
+          },
+          "operational": {
+            "registered_users": 42000,
+            "active_users": 30000,
+            "acreage_managed": 15000,
+            "yield_increase_pct": 7.0,
+            "protocol_adherence_pct": 86.0,
+            "tonnes_exported": null,
+            "markets_served": null,
+            "processing_capacity_tonnes": null,
+            "daily_production_capacity": null,
+            "daily_production_target": null,
+            "locations": 5,
+            "spoilage_reduction_pct": null,
+            "extra_selling_hours": null,
+            "countries_operating": 4
+          }
+        },
+        {
+          "quarter": "Q2 2025",
+          "is_synthetic": true,
+          "impact": {
+            "female_participation_pct": 39.0,
+            "youth_participation_pct": 61.0,
+            "total_beneficiaries": 50000,
+            "direct_jobs": null,
+            "indirect_jobs": null,
+            "income_improvement_pct": 11.0,
+            "female_leadership_pct": null
+          },
+          "financial": {
+            "total_funding_usd": 17800000,
+            "revenue_estimate_usd": 7500000,
+            "gross_margin_pct": null,
+            "revenue_growth_multiple": null,
+            "default_rate_pct": null
+          },
+          "operational": {
+            "registered_users": 50000,
+            "active_users": 36000,
+            "acreage_managed": 24000,
+            "yield_increase_pct": 7.5,
+            "protocol_adherence_pct": 88.0,
+            "tonnes_exported": null,
+            "markets_served": null,
+            "processing_capacity_tonnes": null,
+            "daily_production_capacity": null,
+            "daily_production_target": null,
+            "locations": 6,
+            "spoilage_reduction_pct": null,
+            "extra_selling_hours": null,
+            "countries_operating": 5
+          }
+        },
+        {
+          "quarter": "Q3 2025",
+          "is_synthetic": true,
+          "impact": {
+            "female_participation_pct": 40.0,
+            "youth_participation_pct": 62.0,
+            "total_beneficiaries": 58000,
+            "direct_jobs": null,
+            "indirect_jobs": null,
+            "income_improvement_pct": 11.5,
+            "female_leadership_pct": null
+          },
+          "financial": {
+            "total_funding_usd": 17800000,
+            "revenue_estimate_usd": 8800000,
+            "gross_margin_pct": null,
+            "revenue_growth_multiple": null,
+            "default_rate_pct": null
+          },
+          "operational": {
+            "registered_users": 58000,
+            "active_users": 43000,
+            "acreage_managed": 33000,
+            "yield_increase_pct": 8.0,
+            "protocol_adherence_pct": 89.0,
+            "tonnes_exported": null,
+            "markets_served": null,
+            "processing_capacity_tonnes": null,
+            "daily_production_capacity": null,
+            "daily_production_target": null,
+            "locations": 7,
+            "spoilage_reduction_pct": null,
+            "extra_selling_hours": null,
+            "countries_operating": 5
+          }
+        },
+        {
+          "quarter": "Q4 2025",
+          "is_synthetic": false,
+          "impact": {
+            "female_participation_pct": 41.0,
+            "youth_participation_pct": 63.0,
+            "total_beneficiaries": 65000,
+            "direct_jobs": null,
+            "indirect_jobs": null,
+            "income_improvement_pct": 12.0,
+            "female_leadership_pct": null
+          },
+          "financial": {
+            "total_funding_usd": 20300000,
+            "revenue_estimate_usd": 10000000,
+            "gross_margin_pct": null,
+            "revenue_growth_multiple": null,
+            "default_rate_pct": null
+          },
+          "operational": {
+            "registered_users": 65000,
+            "active_users": 50000,
+            "acreage_managed": 41000,
+            "yield_increase_pct": 8.0,
+            "protocol_adherence_pct": 90.0,
+            "tonnes_exported": null,
+            "markets_served": null,
+            "processing_capacity_tonnes": null,
+            "daily_production_capacity": null,
+            "daily_production_target": null,
+            "locations": 7,
+            "spoilage_reduction_pct": null,
+            "extra_selling_hours": null,
+            "countries_operating": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "agroeknor",
+      "name": "AgroEknor",
+      "country": "Nigeria",
+      "sector": "Agribusiness",
+      "iv_name": "Aruwa Capital Management",
+      "founded_year": 2013,
+      "description": "Impact-driven food, beverage, and agriculture enterprise controlling the full value chain from cultivation to global export. Delivers phytosanitary-certified superfoods to 14 international markets while engineering socioeconomic transformation for rural Nigerian women.",
+      "snapshots": [
+        {
+          "quarter": "Q4 2025",
+          "is_synthetic": false,
+          "impact": {
+            "female_participation_pct": 82.0,
+            "youth_participation_pct": null,
+            "total_beneficiaries": 13000,
+            "direct_jobs": 68,
+            "indirect_jobs": 3800,
+            "income_improvement_pct": 70.0,
+            "female_leadership_pct": null
+          },
+          "financial": {
+            "total_funding_usd": null,
+            "revenue_estimate_usd": 7000000,
+            "gross_margin_pct": null,
+            "revenue_growth_multiple": null,
+            "default_rate_pct": null
+          },
+          "operational": {
+            "registered_users": 13000,
+            "active_users": 5000,
+            "acreage_managed": null,
+            "yield_increase_pct": 75.0,
+            "protocol_adherence_pct": null,
+            "tonnes_exported": 15000,
+            "markets_served": 14,
+            "processing_capacity_tonnes": 6000,
+            "daily_production_capacity": null,
+            "daily_production_target": null,
+            "locations": null,
+            "spoilage_reduction_pct": null,
+            "extra_selling_hours": null,
+            "countries_operating": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "koolboks",
+      "name": "Koolboks",
+      "country": "Nigeria",
+      "sector": "Cleantech",
+      "iv_name": "KawiSafi / Aruwa Capital",
+      "founded_year": 2018,
+      "description": "Climate-technology and financial inclusion enterprise redesigning the economics of refrigeration for off-grid communities. Combines solar energy, proprietary Ice Thermal Storage, IoT, and PAYG financing to tackle Africa's $14 billion post-harvest loss crisis across 28 countries.",
+      "snapshots": [
+        {
+          "quarter": "Q1 2025",
+          "is_synthetic": true,
+          "impact": {
+            "female_participation_pct": 73.0,
+            "youth_participation_pct": null,
+            "total_beneficiaries": 2500,
+            "direct_jobs": 120,
+            "indirect_jobs": null,
+            "income_improvement_pct": 78.0,
+            "female_leadership_pct": null
+          },
+          "financial": {
+            "total_funding_usd": 7000000,
+            "revenue_estimate_usd": null,
+            "gross_margin_pct": null,
+            "revenue_growth_multiple": null,
+            "default_rate_pct": 4.2
+          },
+          "operational": {
+            "registered_users": null,
+            "active_users": null,
+            "acreage_managed": null,
+            "yield_increase_pct": null,
+            "protocol_adherence_pct": null,
+            "tonnes_exported": null,
+            "markets_served": null,
+            "processing_capacity_tonnes": null,
+            "daily_production_capacity": null,
+            "daily_production_target": null,
+            "locations": null,
+            "spoilage_reduction_pct": 58.0,
+            "extra_selling_hours": 3.5,
+            "countries_operating": 18
+          }
+        },
+        {
+          "quarter": "Q2 2025",
+          "is_synthetic": true,
+          "impact": {
+            "female_participation_pct": 74.0,
+            "youth_participation_pct": null,
+            "total_beneficiaries": 3500,
+            "direct_jobs": 180,
+            "indirect_jobs": null,
+            "income_improvement_pct": 81.0,
+            "female_leadership_pct": null
+          },
+          "financial": {
+            "total_funding_usd": 18000000,
+            "revenue_estimate_usd": null,
+            "gross_margin_pct": null,
+            "revenue_growth_multiple": null,
+            "default_rate_pct": 3.5
+          },
+          "operational": {
+            "registered_users": null,
+            "active_users": null,
+            "acreage_managed": null,
+            "yield_increase_pct": null,
+            "protocol_adherence_pct": null,
+            "tonnes_exported": null,
+            "markets_served": null,
+            "processing_capacity_tonnes": null,
+            "daily_production_capacity": null,
+            "daily_production_target": null,
+            "locations": null,
+            "spoilage_reduction_pct": 62.0,
+            "extra_selling_hours": 4.0,
+            "countries_operating": 22
+          }
+        },
+        {
+          "quarter": "Q3 2025",
+          "is_synthetic": true,
+          "impact": {
+            "female_participation_pct": 75.0,
+            "youth_participation_pct": null,
+            "total_beneficiaries": 4500,
+            "direct_jobs": 280,
+            "indirect_jobs": null,
+            "income_improvement_pct": 83.0,
+            "female_leadership_pct": null
+          },
+          "financial": {
+            "total_funding_usd": 18000000,
+            "revenue_estimate_usd": null,
+            "gross_margin_pct": null,
+            "revenue_growth_multiple": null,
+            "default_rate_pct": 3.1
+          },
+          "operational": {
+            "registered_users": null,
+            "active_users": null,
+            "acreage_managed": null,
+            "yield_increase_pct": null,
+            "protocol_adherence_pct": null,
+            "tonnes_exported": null,
+            "markets_served": null,
+            "processing_capacity_tonnes": null,
+            "daily_production_capacity": null,
+            "daily_production_target": null,
+            "locations": null,
+            "spoilage_reduction_pct": 66.0,
+            "extra_selling_hours": 4.5,
+            "countries_operating": 25
+          }
+        },
+        {
+          "quarter": "Q4 2025",
+          "is_synthetic": false,
+          "impact": {
+            "female_participation_pct": 76.0,
+            "youth_participation_pct": null,
+            "total_beneficiaries": 5500,
+            "direct_jobs": 450,
+            "indirect_jobs": null,
+            "income_improvement_pct": 85.0,
+            "female_leadership_pct": null
+          },
+          "financial": {
+            "total_funding_usd": 18000000,
+            "revenue_estimate_usd": null,
+            "gross_margin_pct": null,
+            "revenue_growth_multiple": null,
+            "default_rate_pct": 2.8
+          },
+          "operational": {
+            "registered_users": null,
+            "active_users": null,
+            "acreage_managed": null,
+            "yield_increase_pct": null,
+            "protocol_adherence_pct": null,
+            "tonnes_exported": null,
+            "markets_served": null,
+            "processing_capacity_tonnes": null,
+            "daily_production_capacity": null,
+            "daily_production_target": null,
+            "locations": null,
+            "spoilage_reduction_pct": 70.0,
+            "extra_selling_hours": 5.0,
+            "countries_operating": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "yikodeen",
+      "name": "Yikodeen",
+      "country": "Nigeria",
+      "sector": "Manufacturing",
+      "iv_name": "Aruwa Capital Management",
+      "founded_year": 2016,
+      "description": "West Africa's largest and most technologically advanced safety footwear manufacturer. Operates at the intersection of heavy industrial capacity, human capital development, gender-lens investing, and local supply chain empowerment.",
+      "snapshots": [
+        {
+          "quarter": "Q4 2025",
+          "is_synthetic": false,
+          "impact": {
+            "female_participation_pct": 61.0,
+            "youth_participation_pct": null,
+            "total_beneficiaries": null,
+            "direct_jobs": 550,
+            "indirect_jobs": 2000,
+            "income_improvement_pct": null,
+            "female_leadership_pct": 33.0
+          },
+          "financial": {
+            "total_funding_usd": 1500000,
+            "revenue_estimate_usd": null,
+            "gross_margin_pct": 50.0,
+            "revenue_growth_multiple": 10.0,
+            "default_rate_pct": null
+          },
+          "operational": {
+            "registered_users": null,
+            "active_users": null,
+            "acreage_managed": null,
+            "yield_increase_pct": null,
+            "protocol_adherence_pct": null,
+            "tonnes_exported": null,
+            "markets_served": null,
+            "processing_capacity_tonnes": null,
+            "daily_production_capacity": 5000,
+            "daily_production_target": 20000,
+            "locations": 1,
+            "spoilage_reduction_pct": null,
+            "extra_selling_hours": null,
+            "countries_operating": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "toasties",
+      "name": "Toasties",
+      "country": "Nigeria",
+      "sector": "QSR / Food",
+      "iv_name": "Aruwa Capital Management",
+      "founded_year": 2016,
+      "description": "Pioneering fast-casual dining chain in Lagos bridging traditional West African flavors with global fast-casual formats. Founded by classically trained Executive Chef Eka Obaigbena. Locally sourced Nigerian ingredients in unconventional global-format sandwiches.",
+      "snapshots": [
+        {
+          "quarter": "Q4 2025",
+          "is_synthetic": false,
+          "impact": {
+            "female_participation_pct": 42.0,
+            "youth_participation_pct": 70.0,
+            "total_beneficiaries": 2470,
+            "direct_jobs": 2470,
+            "indirect_jobs": null,
+            "income_improvement_pct": null,
+            "female_leadership_pct": null
+          },
+          "financial": {
+            "total_funding_usd": null,
+            "revenue_estimate_usd": null,
+            "gross_margin_pct": null,
+            "revenue_growth_multiple": null,
+            "default_rate_pct": null
+          },
+          "operational": {
+            "registered_users": null,
+            "active_users": null,
+            "acreage_managed": null,
+            "yield_increase_pct": null,
+            "protocol_adherence_pct": null,
+            "tonnes_exported": null,
+            "markets_served": null,
+            "processing_capacity_tonnes": null,
+            "daily_production_capacity": null,
+            "daily_production_target": null,
+            "locations": 5,
+            "spoilage_reduction_pct": null,
+            "extra_selling_hours": null,
+            "countries_operating": null
+          }
+        }
+      ]
+    }
+  ]
+}

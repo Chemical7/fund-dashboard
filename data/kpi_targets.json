@@ -1,0 +1,12 @@
+{
+  "targets": {
+    "female_participation_pct": {"target": 50.0, "higher_is_better": true, "unit": "%", "label": "Female Participation"},
+    "youth_participation_pct": {"target": 40.0, "higher_is_better": true, "unit": "%", "label": "Youth Participation"},
+    "income_improvement_pct": {"target": 15.0, "higher_is_better": true, "unit": "%", "label": "Income Improvement"},
+    "default_rate_pct": {"target": 5.0, "higher_is_better": false, "unit": "%", "label": "Default Rate"},
+    "yield_increase_pct": {"target": 50.0, "higher_is_better": true, "unit": "%", "label": "Yield Increase"},
+    "protocol_adherence_pct": {"target": 85.0, "higher_is_better": true, "unit": "%", "label": "Protocol Adherence"},
+    "gross_margin_pct": {"target": 40.0, "higher_is_better": true, "unit": "%", "label": "Gross Margin"},
+    "spoilage_reduction_pct": {"target": 50.0, "higher_is_better": true, "unit": "%", "label": "Spoilage Reduction"}
+  }
+}

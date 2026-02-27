@@ -1,0 +1,49 @@
+[theme]
+base = "dark"
+primaryColor = "#00905D"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1B1F2B"
+textColor = "#FAFAFA"
+borderColor = "#2A2F3F"
+linkColor = "#00905D"
+codeBackgroundColor = "#161B22"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+linkUnderline = false
+
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+baseFontSize = 14
+baseFontWeight = 400
+codeFontSize = "13px"
+headingFontSizes = ["32px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [600, 600, 600, 500, 500, 500]
+
+# Semantic colors for badges and status
+greenColor = "#10B981"
+greenBackgroundColor = "#10B98120"
+yellowColor = "#F59E0B"
+yellowBackgroundColor = "#F59E0B20"
+redColor = "#EF4444"
+redBackgroundColor = "#EF444420"
+blueColor = "#3B82F6"
+orangeColor = "#FF6C05"
+violetColor = "#8B5CF6"
+grayColor = "#6B7280"
+
+# Chart colors matching company accent palette
+chartCategoricalColors = ["#00905D", "#FBB500", "#3B82F6", "#FF6C05", "#8B5CF6", "#E879F9", "#10B981"]
+
+dataframeBorderColor = "#2A2F3F"
+dataframeHeaderBackgroundColor = "#1B1F2B"
+
+[theme.sidebar]
+backgroundColor = "#0A0E14"
+secondaryBackgroundColor = "#111620"
+textColor = "#FAFAFA"
+borderColor = "#2A2F3F"
+
+[server]
+headless = true
